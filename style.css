@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+   display: flex;
+   align-items: center;
+   background-color: whitesmoke;
+   color: black;
+   position: sticky;
+   top: 0;
+}
+
+.button{
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    color: black;
+    min-width: 90px;
+}
+
+.button:hover{
+
+    background-color: green;
+}
+.search{
+    position: relative;
+    padding: 10px;
+    outline: gray;
+}
+.searchlogo{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: rgb(14, 13, 13);
+    padding: 11px;
+}
+.searchlogo:hover{
+    background-color: rgb(233, 230, 230); 
+    border-radius: 35px;
+}
+.adjust{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 50%;
+    text-align: center;
+}
+.adjust:hover{
+    background-color: rgb(233, 230, 230);
+}
+.rightnav{
+    margin-left: 200px;
+    display: flex;
+}
+.button2{
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.btn1:hover{
+    background-color: rgb(233, 230, 230);
+    border-radius: 35px;
+}
+.btn2{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.btn2:hover{
+    background-color: rgb(233, 230, 230);
+    border-radius: 35px;
+}
+.btn3{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.btn3:hover{
+    background-color: rgb(233, 230, 230);
+    border-radius: 35px;
+}
+.button3{
+    display: flex;
+    gap: 0;
+    margin-left: 20px;
+    background-color: rgb(145, 172, 145);
+    border-radius: 25px;
+    position: relative;
+
+}
+.btn4{
+    background-color: green;
+    color: whitesmoke;
+    width: 65px;
+    border-radius: 25px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(0, 92, 0);
+}
+.btn5{
+    background: transparent;
+    width: 65px;
+    border-radius: 25px;
+    border: none;
+    
+
+}
+.btn5:hover{
+    background-color: rgb(0, 92, 0);
+}
+.subnav{
+    display: flex;
+    gap: 10;
+    background-color: rgb(8, 8, 96);
+    overflow-x: scroll;
+    padding: 10px ;
+    position: sticky;
+    top: 65px;
+}
+.subnav button{
+    border: none;
+    background-color: transparent;
+    padding: 6px;
+    color: white;
+    display: inline-block;
+    min-width: 100px;
+    cursor: pointer;
+}
+.subnav button:hover{
+    background-color: rgb(4, 4, 57);
+}
+.banner{
+    min-height:500px;
+    background-color: rgb(4, 4, 40);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    flex-direction: column;
+    gap: 40px;
+}
+.bannerbtn{
+    background-color: green;
+}
+.bannerbtn:hover{
+    background-color: rgb(3, 61, 3);
+    cursor: pointer;
+}
+.bannerlink{
+    text-decoration: underline;
+}
+.bannerlink:hover{
+    color: rgb(199, 199, 13);
+}
+.bannerbox{
+    background-color: rgb(193, 245, 228);
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container1 button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+.bannerboxbutton1{
+    background-color: green;
+    color: whitesmoke;
+}
+.bannerboxbutton1:hover{
+    background-color: rgb(4, 99, 4);
+}
+.bannerboxbutton2{
+    background-color: bisque;
+    color: black;
+}
+.bannerboxbutton2:hover{
+    background-color: rgb(255, 215, 166);
+}
+.bannerboxbutton3{
+    background-color: rgb(57, 57, 57);
+    color: whitesmoke;
+}
+.bannerboxbutton3:hover{
+    background-color: black;
+}
+.bannerboxbutton4{
+    background-color: pink;
+    color: black;
+}
+.bannerboxbutton4:hover{
+    background-color: rgb(247, 166, 180);
+}
+.container2{
+    background-color: rgb(215, 214, 214);
+    padding: 20px;
+  min-height: 200px;
+    width: 300px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(171, 171, 171);
+}
+.code{
+    background-color: whitesmoke;
+    border-left: 3px solid green;
+    text-align: start;
+    padding: 10px;
+    width: 280px;
+}
+.codebtn{
+    color: whitesmoke;
+    background-color: green;
+    border-radius: 30px;
+    padding: 5px;
+    width: 200px;
+}
+.codebtn:hover{
+    background-color: rgb(2, 95, 2);
+    cursor: pointer;
+}
+.grid{
+    background-color: rgb(2, 2, 57);
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    grid-auto-rows: 250px;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+.gridbox1{
+    background-color: pink;
+    grid-column: span 2;
+}
+.gridbox2{
+    background-color: rgb(243, 243, 163);
+    grid-column: span 2;
+}
+.gridbox3{
+    background-color: rgb(219, 207, 209);
+    grid-column: span 2;
+}
+.gridbox4{
+    background-color: rgb(194, 210, 194);
+    grid-column: span 2;
+}
+.gridbox5
+{
+    background-color: rgb(151, 220, 212);
+    grid-column: span 2;
+}
+.gridbox6{
+    background-color: rgb(228, 226, 226);
+    grid-column: span 2;
+}
+.grid div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 10px;
+}
+.grid div h1{
+    font-size: 40px;
+}
+.grid div p{
+    font-size: 20px;
+}
+.grid div button{
+    border: 1 px solid black;
+    border-radius: 30px;
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    padding: 12px;
+    width: 200px;
+} 
+.grid div button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.gridbanner2{
+    background-color: rgb(2, 2, 57);
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px ;
+    grid-auto-rows: 140px;
+    gap: 50px;
+    padding: 50px;
+}
+.gridbanner2 div{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.gridbanner1box{
+    background-color: pink;
+    grid-column: span 2;
+}
+.gridbanner1box:hover{
+    background-color: rgb(243, 155, 169);
+    cursor: pointer;
+}
+.gridbanner2box{
+    grid-column: span 2;
+    background-color: rgb(231, 231, 157);
+}
+.gridbanner2box:hover{
+    background-color: rgb(232, 236, 115);
+    cursor: pointer;
+}
+
+.gridbannerbox1{
+    background-color: yellow;
+}
+.gridbannerbox2{
+    background-color: yellow;
+}
+.gridbannerbox3{
+    background-color: yellow;
+}
+.gridbannerbox4{
+    background-color: yellow;
+}
+.gridbannerbox5{
+    background-color: yellow;
+}
+.gridbannerbox6{
+    background-color: yellow;
+}
+.gridbannerbox7{
+    background-color: yellow;
+}
+.gridbannerbox8{
+    background-color: yellow;
+}
+.gridbannerbox9{
+    background-color: yellow;
+}
+.gridbannerbox10{
+    background-color: yellow;
+}
+.gridbannerbox11{
+    background-color: yellow;
+}
+.gridbannerbox12{
+    background-color: yellow;
+}
+.gridbannerbox13{
+    background-color: yellow;
+}
+.gridbannerbox14{
+    background-color: yellow;
+}
+.gridbannerbox15{
+    background-color: yellow;
+}
+.gridbannerbox16{
+    background-color: yellow;
+}
+.gridbannerbox17{
+    background-color: yellow;
+}
+.gridbannerbox18{
+    background-color: yellow;
+}
+.gridbannerbox19{
+    background-color: yellow;
+}
+.gridbannerbox20{
+    background-color: yellow;
+}
+.gridbannerbox21{
+    background-color: yellow;
+}
+.gridbannerbox22{
+    background-color: yellow;
+}
+.gridbannerbox23{
+    background-color: yellow;
+}
+.gridbannerbox24{
+    background-color: yellow;
+}
+.gridbannerbox25{
+    background-color: yellow;
+}
+.gridbannerbox26{
+    background-color: yellow;
+}
+.gridbannerbox27{
+    background-color: yellow;
+}
+.gridbannerbox28{
+    background-color: yellow;
+}
+.gridbannerbox29{
+    background-color: yellow;
+}
+.gridbannerbox30{
+    background-color: yellow;
+}
+.gridbannerbox31{
+    background-color: yellow;
+}
+.gridbannerbox32{
+    background-color: yellow;
+}
+.gridbannerbox33{
+    background-color: yellow;
+}
+.gridbannerbox34{
+    background-color: yellow;
+}
+.gridbannerbox35{
+    background-color: yellow;
+}
+.gridbannerbox36{
+    background-color: yellow;
+}
